@@ -1,0 +1,23 @@
+programa
+{
+	
+inteiro numero
+
+	funcao inicio()
+	{
+		escreva("ODigite um numero: ")
+		leia(numero)
+
+		se (numero < 0){
+			escreva("negativo\n")
+		}
+		senao{
+			se (numero > 0){
+				escreva("positivo\n")
+			}
+			senao{
+				escreva("igual a zero\n")
+			}
+		}
+	}
+}
