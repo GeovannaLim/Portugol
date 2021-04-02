@@ -1,0 +1,19 @@
+programa
+{
+
+	funcao inicio()
+	{
+	inteiro x, i, a
+
+	faca{
+ escreva ("digite o numero cinco: ")
+		leia(x)
+	}
+	enquanto(x <= 0)
+
+	para(i = 0; i <= 10; i++){
+		a = (x * i)
+ escreva(5, " x ", i, " = ",a , "\n")
+		}
+	}
+}
