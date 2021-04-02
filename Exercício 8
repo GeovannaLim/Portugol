@@ -1,0 +1,14 @@
+programa
+{
+	
+
+
+	funcao inicio()
+	{
+	inteiro i=-10
+	enquanto(i<=1){
+		escreva(i+", ")
+		i++
+	      }
+	}
+}
