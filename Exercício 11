@@ -1,0 +1,45 @@
+programa
+{
+	
+inteiro n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, soma, total, resul
+
+	funcao inicio()
+	{
+ escreva ("Escreva o primeiro numero: ")
+		leia(n1)
+		limpa()
+		escreva ("Escreva o segundo numero: ")
+		leia(n2)
+		limpa()
+		escreva("Escreva o terceiro numero: ")
+		leia(n3)
+		limpa()
+		escreva("Escreva o quarto numero: ")
+		leia(n4)
+		limpa()
+		escreva("Escreva o quinto numero: ")
+		leia(n5)
+		limpa()
+		escreva("Escreva o sexto numero: ")
+		leia(n6)
+		limpa()
+		escreva ("Escreva o sétimo numero: ")
+		leia(n7)
+		limpa()
+		escreva ("Escreva o oitavo numero: ")
+		leia(n8)
+		limpa()
+		escreva ("Escreva o nono numero: ")
+		leia(n9)
+		limpa()
+		escreva ("Escreva o décimo numero: ")
+		leia(n10)
+ limpa() limpa()
+		soma = (n1+n2+n3+n4+n5+n6+n7+n8+n9+n10)
+		total = (10)
+
+		resul = (soma/total)
+
+		escreva("Valor em média aritmética: ", resul)
+	}
+}
