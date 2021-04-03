@@ -1,0 +1,13 @@
+programa
+{
+
+
+	funcao inicio()
+	{
+	inteiro i=101
+	enquanto (i<=110){
+	escreva (i+", ")
+	i++
+	    }
+	}
+}
