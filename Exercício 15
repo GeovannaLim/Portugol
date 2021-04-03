@@ -1,0 +1,18 @@
+programa
+{
+	
+
+ inteiro  vz,pl
+	funcao inicio()
+	{
+		escreva("Bem vindo a FABIDRONES!")
+		escreva("Cada drone artesanal custa R$8.190 e pode ser pago em até 15X sem juros\n")
+		limpa()
+		escreva("Digite o número de vezes que você deseja parcelar o drone: ")
+		leia(vz)
+		limpa()
+		pl = 8190 / vz
+ escreva("\nO valor de cada parcela em ", vz ,"\n vezes é de R$ ", pl) 
+	
+	}
+}
