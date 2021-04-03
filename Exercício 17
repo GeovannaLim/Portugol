@@ -1,0 +1,16 @@
+programa
+{
+	
+real alt,peso,imc
+	funcao inicio()
+	{
+		escreva("Digite seu peso:")
+		leia(peso)
+		limpa()
+		escreva("Digite sua altura:")
+		leia(alt)
+		limpa()
+		imc=(peso)/(alt*alt)
+		escreva("Seu Imc é:" , imc)
+	}
+}
