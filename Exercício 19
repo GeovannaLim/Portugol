@@ -1,0 +1,22 @@
+programa
+{
+	
+	real at, cto, vl, lc, por
+
+	funcao inicio()
+	{
+ escreva("! WESLEY PEÇAS AUTOMOTIVAS!")
+ limpa()
+		escreva("\nDigite o valor de custo da peça: ")
+		leia(cto)
+		limpa()
+ escreva("\nDigite a margem de aumento em porcentagem: ")
+		leia(at)
+		limpa()
+		por = (cto / 100) * at
+		vl = por + cto
+		lc = vl - cto
+ escreva("\nO preço de venda será de R$ ", vl)
+ escreva("\nO seu lucro será de R$ ", lc)
+	}
+}
