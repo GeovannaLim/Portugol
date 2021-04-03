@@ -1,0 +1,17 @@
+
+real n1,n2,media
+	funcao inicio()
+	{
+		escreva("Escreva sua primeira nota:")
+		leia(n1)
+		limpa()
+		escreva("Escreva sua segunda nota:")
+		leia(n2)
+		limpa()
+		media=(n1+n2)/2
+		se (media>=7){
+			escreva("Você foi APROVADO sua nota é:", media)
+		}
+		senao escreva("Você foi REPROVADO sua nota é:", media)
+	}
+}
